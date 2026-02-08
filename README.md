@@ -10,7 +10,7 @@ and Smart Manufacturing initiatives.
 ## Tech Stack
 - Python
 - Pandas
-- Streamlit
+- PowerBI
 
 ## Features
 - Sensor data simulation
