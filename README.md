@@ -1,22 +1,17 @@
-# Smart Factory Sensor Monitoring System
+# Smart Factory Sensor Simulation 
 
-This project simulates an Industrial IoT environment where sensor data
-(temperature, vibration, humidity) is generated and visualized through
-a monitoring dashboard.
+This is a small Python project inspired by real factory environments.
 
-Built as a learning project inspired by Danone’s Industry 5.0 Academy
-and Smart Manufacturing initiatives.
+It simulates 3 machines with temperature sensors, generating data over time and classifying each reading as:
 
-## Tech Stack
-- Python
-- Pandas
-- PowerBI
+- Normal  
+- Warning  
+- Critical  
 
-## Features
-- Sensor data simulation
-- Basic anomaly detection logic
-- Interactive dashboard for machine health monitoring
+The output is saved into a CSV file called `sensor_data.csv`.
 
-## Next Steps
-- Add API integration
-- Extend to cloud-ready architecture
+To run it:
+
+```bash
+pip install pandas
+python sensor_simulation.py
